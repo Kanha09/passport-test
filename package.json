@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "heroku-prebuild": "npm install",
     "start": "node src/index",
     "dev": "nodemon src/index"
+    
   },
   "keywords": [],
   "author": "",
